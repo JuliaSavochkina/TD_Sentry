@@ -5,7 +5,8 @@ from get_data import get_data
 
 def main(issue_id: str, type_of_search: str, name: str) -> None:
     """
-    Обращается к API Sentry, забрает данные по указанному issue_id, для каждого issue формирует множество уникальных действий и передает в csv файл.
+    Обращается к API Sentry, забрает данные по указанному issue_id, для каждого issue формирует множество уникальных
+    действий и передает в csv файл.
     :param issue_id: номер issue
     :param type_of_search: пока order_id или uid, это значение будет отображаться в первом столбце файла
     :param name: название файла
